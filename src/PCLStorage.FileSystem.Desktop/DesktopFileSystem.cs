@@ -27,6 +27,8 @@ namespace PCLStorage
 #elif IOS
                 var documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
                 var localAppData = Path.Combine(documents, "..", "Library");
+#elif TIZEN
+                var localAppData = Tizen.Applications.Application.Current.DirectoryInfo.Data;
 #else
                 var localAppData = System.Windows.Forms.Application.LocalUserAppDataPath;
 #endif
@@ -41,7 +43,7 @@ namespace PCLStorage
         {
             get
             {
-#if ANDROID || IOS
+#if ANDROID || IOS || TIZEN
                 return null;
 #else
                 //  SpecialFolder.ApplicationData is not app-specific, so use the Windows Forms API to get the app data path

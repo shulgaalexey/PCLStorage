@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.22310.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{70760DD8-A408-4274-AAFE-0E06BC98DEDB}"
 EndProject
@@ -52,6 +52,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A5AE3457
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCLStorage.iOS-Unified", "src\PCLStorage.iOS-Unified\PCLStorage.iOS-Unified.csproj", "{3B479AED-CC1C-46F7-AF55-8BF9E8BA1C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCLStorage.Tizen", "src\PCLStorage.Tizen\PCLStorage.Tizen.csproj", "{D08D782A-8046-41DF-A76D-781B7CE1BF22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -269,6 +271,22 @@ Global
 		{3B479AED-CC1C-46F7-AF55-8BF9E8BA1C01}.Release|x64.Build.0 = Release|Any CPU
 		{3B479AED-CC1C-46F7-AF55-8BF9E8BA1C01}.Release|x86.ActiveCfg = Release|Any CPU
 		{3B479AED-CC1C-46F7-AF55-8BF9E8BA1C01}.Release|x86.Build.0 = Release|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Debug|ARM.Build.0 = Debug|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Debug|x64.Build.0 = Debug|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Debug|x86.Build.0 = Debug|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Release|ARM.Build.0 = Release|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Release|x64.ActiveCfg = Release|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Release|x64.Build.0 = Release|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Release|x86.ActiveCfg = Release|Any CPU
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -291,5 +309,6 @@ Global
 		{32922221-A523-4673-9C77-DE6B01C91F3D} = {70760DD8-A408-4274-AAFE-0E06BC98DEDB}
 		{27A782B4-6683-4849-B951-601289C23F73} = {1E53EE83-AD17-4F75-A77D-B0A12961A232}
 		{3B479AED-CC1C-46F7-AF55-8BF9E8BA1C01} = {1E53EE83-AD17-4F75-A77D-B0A12961A232}
+		{D08D782A-8046-41DF-A76D-781B7CE1BF22} = {1E53EE83-AD17-4F75-A77D-B0A12961A232}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,23 @@
+﻿{
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "debugType": "portable",
+    "platform": "AnyCPU",
+    "preserveCompilationContext": true
+  },
+  "dependencies": {
+    "Microsoft.NETCore.App": "1.1.2",
+    "Tizen.Applications.Common": "1.5.8"
+  },
+  "runtimes": {
+    "win": {},
+    "linux": {}
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "netstandard1.6"
+      ]
+    }
+  }
+}
