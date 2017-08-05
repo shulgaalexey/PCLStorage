@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata minClientVersion="2.8.1">
-        <id>PCLStorage</id>
+        <id>PCLStorageTizen</id>
         <version>1.0.1</version>
-        <title>PCL Storage - Portable Storage APIs</title>
-        <authors>Daniel Plaisted, Samsung Electronics</authors>
-        <owners>Daniel Plaisted, Samsung Electronics</owners>
+        <title>[Unoficial][Experimental] PCL Storage - Portable Storage APIs</title>
+        <authors>Daniel Plaisted</authors>
+        <owners>Daniel Plaisted</owners>
         <licenseUrl>https://github.com/dsplaisted/PCLStorage/blob/master/LICENSE</licenseUrl>
-        <projectUrl>https://github.com/dsplaisted/PCLStorage</projectUrl>
+        <projectUrl>https://github.com/shulgaalexey/PCLStorage</projectUrl>
         <iconUrl>https://dsplaisted.blob.core.windows.net/oss/pickles_64.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>PCL Storage provides a consistent, portable set of local file IO APIs for .NET, Xamarin Tizen.  This makes it easier to create cross-platform .NET libraries and apps.</description>
         <summary>PCL Storage provides a consistent, portable set of local file IO APIs across .NET platforms.</summary>
         <tags>io storage file portable pcl winrt android ios xamarin monoandroid monodroid monotouch</tags>
         <dependencies>
-            <group targetFramework="DNXCore5.0">
+            <!--<group targetFramework="DNXCore5.0">-->
+            <group>
                 <dependency id="nunit" version="[3.6.1]" />
                 <dependency id="Tizen" version="1.0.2" />
                 <dependency id="Microsoft.Bcl.Async" version="1.0.165" />

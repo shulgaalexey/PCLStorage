@@ -2254,10 +2254,11 @@
       "Tizen/1.0.5": {
         "type": "package",
         "dependencies": {
+          "NETStandard.Library": "1.6.1",
           "Tizen.Log": "1.0.0"
         },
         "compile": {
-          "ref/netstandard1.3/Tizen.dll": {}
+          "lib/netstandard1.3/Tizen.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/Tizen.dll": {}
@@ -2278,6 +2279,9 @@
       },
       "Tizen.Log/1.0.0": {
         "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
         "compile": {
           "lib/netstandard1.3/Tizen.Log.dll": {}
         },
@@ -4627,10 +4631,11 @@
       "Tizen/1.0.5": {
         "type": "package",
         "dependencies": {
+          "NETStandard.Library": "1.6.1",
           "Tizen.Log": "1.0.0"
         },
         "compile": {
-          "ref/netstandard1.3/Tizen.dll": {}
+          "lib/netstandard1.3/Tizen.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/Tizen.dll": {}
@@ -4651,6 +4656,9 @@
       },
       "Tizen.Log/1.0.0": {
         "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
         "compile": {
           "lib/netstandard1.3/Tizen.Log.dll": {}
         },
@@ -6977,10 +6985,11 @@
       "Tizen/1.0.5": {
         "type": "package",
         "dependencies": {
+          "NETStandard.Library": "1.6.1",
           "Tizen.Log": "1.0.0"
         },
         "compile": {
-          "ref/netstandard1.3/Tizen.dll": {}
+          "lib/netstandard1.3/Tizen.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/Tizen.dll": {}
@@ -7001,6 +7010,9 @@
       },
       "Tizen.Log/1.0.0": {
         "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
         "compile": {
           "lib/netstandard1.3/Tizen.Log.dll": {}
         },
@@ -7154,7 +7166,7 @@
       ]
     },
     "Microsoft.NETCore.App/1.1.2": {
-      "sha512": "fcN0Ob6rjY7Zu0770cA5l9wRJvj7+ltJPPdryUidejkkhao+y2AYrtezBTlP9nCSFXLmYR9BtaknORT17x8reA==",
+      "sha512": "TUPK1xhef7WcbsIkhfZOz6J7DrG5aebjVRBswPfHe90eDhfnlWHaLiI1OtMB2O78bf5d37WO6ge+9nel2keKkA==",
       "type": "package",
       "path": "microsoft.netcore.app/1.1.2",
       "files": [
@@ -12668,19 +12680,18 @@
       ]
     },
     "Tizen/1.0.5": {
-      "sha512": "WMhPIsx4yeYvpILdsUkFP9HHM9W3GTEANKJ1fEsyRbJZhBtMhbX+AlcaGyb0rc7lkArvLTUzp6sVLH3/R61dbA==",
+      "sha512": "dVvNKCUn4PObfM8JxRv8CBZ18IhkMdkkGIxArODcalofitaNTL3UEdlPnv/eT6XpNbFofHWQOT8r7IXNbpNhYA==",
       "type": "package",
       "path": "tizen/1.0.5",
       "files": [
         "lib/netstandard1.3/Tizen.dll",
         "lib/netstandard1.3/Tizen.xml",
-        "ref/netstandard1.3/Tizen.dll",
         "tizen.1.0.5.nupkg.sha512",
         "tizen.nuspec"
       ]
     },
     "Tizen.Applications.Common/1.5.8": {
-      "sha512": "ooTYEWTHGyVAsZl0kueeYLZRXGL8WtnpEmQDvU/+4FFHgIudn/jDLzJSe3kxjWh6QQ9Hpfpa92i4MHH9fSSsaQ==",
+      "sha512": "Q2OQtg9/jLwTcfljeRzNBIPVfiNzzbxcf16+dwQ2ywryIQwdx7fpPvsw3PQFnQLBQ+Nr5VC/PSl/Se6ukTZHGQ==",
       "type": "package",
       "path": "tizen.applications.common/1.5.8",
       "files": [
@@ -12691,7 +12702,7 @@
       ]
     },
     "Tizen.Log/1.0.0": {
-      "sha512": "c7S+MwPtNHC0rv/XfK/G+0cJtouhDsCpwIoAw1fJ+dkZX3SQHMmH5SInHN+wdF6Crqj6vWvRnSMtwZUcDkPY5Q==",
+      "sha512": "QcEf+zN2S8RIYvkwBQV/rx+6Cr3RkdwLpaQR+bS57akLLbMWLI0KTDlvoSJgYO6+vReEjutIWLhK1dSlkYXtCg==",
       "type": "package",
       "path": "tizen.log/1.0.0",
       "files": [
@@ -12715,20 +12726,20 @@
     ".NETCoreApp,Version=v1.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Samsung\\.nuget\\packages\\": {}
+    "C:\\Users\\Alexey\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Projects\\NUnit\\PCLStorage_forked\\PCLStorage\\src\\PCLStorage.Tizen\\PCLStorage.Tizen.csproj",
+      "projectUniqueName": "C:\\projects\\PCLStorage\\src\\PCLStorage.Tizen\\PCLStorage.Tizen.csproj",
       "projectName": "PCLStorage.Tizen",
-      "projectPath": "C:\\Projects\\NUnit\\PCLStorage_forked\\PCLStorage\\src\\PCLStorage.Tizen\\PCLStorage.Tizen.csproj",
-      "projectJsonPath": "C:\\Projects\\NUnit\\PCLStorage_forked\\PCLStorage\\src\\PCLStorage.Tizen\\PCLStorage.Tizen.project.json",
+      "projectPath": "C:\\projects\\PCLStorage\\src\\PCLStorage.Tizen\\PCLStorage.Tizen.csproj",
+      "projectJsonPath": "C:\\projects\\PCLStorage\\src\\PCLStorage.Tizen\\PCLStorage.Tizen.project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "netcoreapp1.0": {
           "projectReferences": {
-            "C:\\Projects\\NUnit\\PCLStorage_forked\\PCLStorage\\src\\PCLStorage.Abstractions.NoSL\\PCLStorage.Abstractions.NoSL.csproj": {
-              "projectPath": "C:\\Projects\\NUnit\\PCLStorage_forked\\PCLStorage\\src\\PCLStorage.Abstractions.NoSL\\PCLStorage.Abstractions.NoSL.csproj"
+            "C:\\projects\\PCLStorage\\src\\PCLStorage.Abstractions.NoSL\\PCLStorage.Abstractions.NoSL.csproj": {
+              "projectPath": "C:\\projects\\PCLStorage\\src\\PCLStorage.Abstractions.NoSL\\PCLStorage.Abstractions.NoSL.csproj"
             }
           }
         }
