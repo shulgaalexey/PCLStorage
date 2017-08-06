@@ -15,8 +15,8 @@
         <tags>io storage file portable pcl winrt android ios xamarin monoandroid monodroid monotouch</tags>
         <dependencies>
             <!--<group targetFramework="DNXCore5.0">-->
-            <group targetFramework="netstandard">
-            <!--<group>-->
+            <!--<group targetFramework="netstandard">-->
+            <group>
                 <dependency id="nunit" version="[3.6.1]" />
                 <dependency id="Tizen" version="1.0.2" />
                 <dependency id="Microsoft.Bcl.Async" version="1.0.165" />
