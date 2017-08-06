@@ -10,12 +10,13 @@
         <projectUrl>https://github.com/shulgaalexey/PCLStorage</projectUrl>
         <iconUrl>https://dsplaisted.blob.core.windows.net/oss/pickles_64.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>PCL Storage provides a consistent, portable set of local file IO APIs for .NET, Xamarin Tizen.  This makes it easier to create cross-platform .NET libraries and apps.</description>
+        <description>[Unoficial][Experimental] PCL Storage provides a consistent, portable set of local file IO APIs for .NET, Xamarin Tizen.  This makes it easier to create cross-platform .NET libraries and apps.</description>
         <summary>PCL Storage provides a consistent, portable set of local file IO APIs across .NET platforms.</summary>
         <tags>io storage file portable pcl winrt android ios xamarin monoandroid monodroid monotouch</tags>
         <dependencies>
             <!--<group targetFramework="DNXCore5.0">-->
-            <group>
+            <group targetFramework="netstandard1.0">
+            <!--<group>-->
                 <dependency id="nunit" version="[3.6.1]" />
                 <dependency id="Tizen" version="1.0.2" />
                 <dependency id="Microsoft.Bcl.Async" version="1.0.165" />
